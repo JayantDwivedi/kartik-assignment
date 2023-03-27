@@ -1,0 +1,7 @@
+@import "../../styles/mixins";
+@import "../../styles/colors";
+
+.container {
+  background-image: url("../../../public/images/hero.png");
+  height: calc(100vh - 119px);
+}

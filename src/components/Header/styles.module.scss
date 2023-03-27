@@ -1,0 +1,47 @@
+@import "../../styles/mixins";
+@import "../../styles/colors";
+
+.container {
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 72px;
+
+  @include tablet {
+    padding: 0 40px;
+  }
+
+  @include mobile {
+    padding: 0 28px;
+  }
+
+  .logo {
+    height: 44px;
+    width: 44px;
+    background-color: $primary;
+    border-radius: 50%;
+  }
+
+  .navBar {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+
+    .navLink {
+      font-size: 35px;
+      @include mobile {
+        display: none;
+      }
+    }
+    .moreLink {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $primary-light;
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+    }
+  }
+}
