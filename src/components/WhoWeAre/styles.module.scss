@@ -1,0 +1,57 @@
+@import "../../styles/mixins";
+@import "../../styles/colors";
+
+.container {
+  margin: 0 72px;
+
+  @include tablet {
+    margin: 0 40px;
+  }
+
+  @include mobile {
+    margin: 0 28px;
+  }
+
+  .heading {
+    font-size: 1.5re;
+    color: $primary-text;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    @include tablet {
+      font-size: 1rem;
+      margin: 1.5rem 0;
+    }
+    @include mobile {
+      font-size: 1rem;
+      margin: 1.5rem 0;
+    }
+  }
+  .largeHeading {
+    font-size: 6.1rem;
+    color: $primary-text;
+    margin: 2rem 0;
+    font-weight: 600;
+
+    @include tablet {
+      font-size: 4rem;
+      margin: 1.5rem 0;
+    }
+    @include mobile {
+      font-size: 2rem;
+      margin: 1.5rem 0;
+    }
+  }
+  .desText {
+    color: $primary-text;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    @include tablet {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    @include mobile {
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+    }
+  }
+}
