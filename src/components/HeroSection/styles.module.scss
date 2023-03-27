@@ -3,5 +3,8 @@
 
 .container {
   background-image: url("../../../public/images/hero.png");
+  background-color: red;
   height: calc(100vh - 119px);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

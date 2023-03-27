@@ -6,6 +6,11 @@
 
   .innerContainer {
     display: flex;
+    flex-direction: row;
+
+    @include tablet {
+      flex-direction: column;
+    }
 
     .leftContainer {
       background-image: url("../../../public/images/leftSection.png");
@@ -16,6 +21,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @include tablet {
+        width: 100%;
+        background-color: red;
+        background-image: none;
+      }
+
+      @include mobile {
+        width: 100%;
+        background-color: red;
+        background-image: none;
+      }
 
       .largeHeading {
         font-size: 6.1rem;
