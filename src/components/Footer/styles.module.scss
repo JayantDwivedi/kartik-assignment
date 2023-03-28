@@ -20,8 +20,8 @@
 
     @include mobile {
       flex-direction: column;
-      gap: 1.5rem;
       align-items: flex-start;
+      gap: 3rem;
     }
 
     .logoContainer {

@@ -1,0 +1,31 @@
+@import "../../styles/mixins";
+@import "../../styles/colors";
+
+.container {
+  padding: 0 4.5rem;
+  background-color: $primary;
+
+  @include tablet {
+    padding: 0 2.5rem;
+  }
+
+  @include mobile {
+    padding: 0 1.75rem;
+  }
+
+  .heading {
+    color: $white;
+    font-size: 6.1rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 689;
+  }
+
+  // if needed add btn container
+
+  .workImage {
+    .starBucks {
+      height: 700px;
+    }
+  }
+}

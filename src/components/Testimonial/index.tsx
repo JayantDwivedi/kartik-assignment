@@ -5,7 +5,16 @@ const Testimonials = () => {
     <div className={styles.container}>
       <p className={styles.heading}>Testimonials</p>
 
-      <div>testimonial card</div>
+      <div className={styles.card}>
+        <div className={styles.quoteContainer}>
+          <img className={styles.image} src="/images/quote.png" alt="" />
+          <p className={styles.quote}>“Working with Extensive is great” </p>
+        </div>
+        <div className={styles.authorContainer}>
+          <p className={styles.name}>-Hershel </p>
+          <p className={styles.designation}>Head of director GGPL PVT LTD. </p>
+        </div>
+      </div>
     </div>
   );
 };
