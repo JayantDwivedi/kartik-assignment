@@ -4,16 +4,16 @@
 .container {
   display: inline-block;
   .partnerImage {
-    height: 140px;
-    width: 140px;
+    height: 8.75rem;
+    width: 8.75rem;
 
     @include tablet {
-      height: 140px;
-      width: 140px;
+      height: 5.4rem;
+      width: 5.4rem;
     }
     @include mobile {
-      height: 70px;
-      width: 70px;
+      height: 2.3rem;
+      width: 2.3rem;
     }
   }
   .imageText {

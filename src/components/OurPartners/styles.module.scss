@@ -42,5 +42,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 9rem;
+
+    @include tablet {
+      gap: 4rem;
+      justify-content: space-evenly;
+    }
+    @include mobile {
+      gap: 4rem;
+      justify-content: space-evenly;
+    }
   }
 }

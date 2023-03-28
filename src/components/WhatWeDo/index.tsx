@@ -10,12 +10,12 @@ const WhatWeDo = () => {
           <div>
             <p className={styles.largeHeading}>
               What
-              <br /> we do
+              <br /> we do.
             </p>
             <p className={styles.desText}>
               We do lots of stuffs , basically
               <br />
-              adding value to your product .
+              adding value to your product.
             </p>
           </div>
         </div>

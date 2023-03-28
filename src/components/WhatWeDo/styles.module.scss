@@ -39,7 +39,11 @@
         color: $primary-text;
         text-transform: uppercase;
         margin: 2rem 0;
-        font-weight: 600;
+        font-weight: 700;
+
+        @include tablet {
+          font-size: 3.8rem;
+        }
       }
 
       .desText {
