@@ -1,7 +1,6 @@
 import { Close, Menu } from "@mui/icons-material";
 import { Button, Drawer, IconButton } from "@mui/material";
 import { useState } from "react";
-import SidebarDrawer from "../SidebarDrawer";
 import styles from "./styles.module.scss";
 
 const sidebar = [

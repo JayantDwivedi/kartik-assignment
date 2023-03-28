@@ -13,13 +13,13 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      <WhoWeAre />
+      {/* <WhoWeAre />
       <WhatWeDo />
       <OurWork />
       <OurPartners />
       <Testimonials />
       <LookingToDrive />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
