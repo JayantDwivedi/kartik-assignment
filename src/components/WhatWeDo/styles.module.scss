@@ -60,6 +60,15 @@
       .digitalMarketing {
         color: $primary-text;
         font-size: 3.5rem;
+
+        @include tablet {
+          margin: 0;
+          font-size: 2rem;
+        }
+        @include mobile {
+          margin: 0;
+          font-size: 2rem;
+        }
       }
       .btnContainer {
         width: 60%;
