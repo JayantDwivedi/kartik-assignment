@@ -45,3 +45,58 @@
     }
   }
 }
+
+.sidebarContainer {
+  background-color: $primary;
+  color: $white;
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+  padding-left: 3rem;
+
+  @include tablet {
+    width: 60vw;
+  }
+
+  @include mobile {
+    width: 100vw;
+  }
+
+  .sideNavs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .links {
+      font-size: 3.8rem;
+      color: $white;
+      text-decoration: none;
+
+      @include tablet {
+        font-size: 3rem;
+      }
+      @include mobile {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  .btnContainer {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    .moreLink {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $primary-light;
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+    }
+  }
+}
