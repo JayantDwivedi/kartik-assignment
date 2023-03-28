@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import LookingToDrive from "./components/LookingToDrive";
@@ -18,6 +19,7 @@ function App() {
       <OurPartners />
       <Testimonials />
       <LookingToDrive />
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,67 @@
+@import "../../styles/mixins";
+@import "../../styles/colors";
+
+.container {
+  padding: 4.5rem;
+  background-color: $primary;
+
+  @include tablet {
+    padding: 2.5rem;
+  }
+
+  @include mobile {
+    padding: 1.75rem;
+  }
+
+  .innerContainer {
+    display: flex;
+    align-items: center;
+    color: $white;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .logoContainer {
+      width: 10%;
+      font-size: 2.1rem;
+    }
+    .navLinksContainer {
+      text-align: center;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+
+      @include tablet {
+        width: 60%;
+        flex-wrap: wrap;
+      }
+      @include tablet {
+        width: 40%;
+        flex-wrap: wrap;
+      }
+
+      .link {
+        font-weight: 500;
+        font-size: 1.3rem;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    .iconContainer {
+      width: 10%;
+      display: inline-flex;
+      gap: 2rem;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    color: $white;
+    font-size: 0.8rem;
+    margin: 2rem 0;
+  }
+}
