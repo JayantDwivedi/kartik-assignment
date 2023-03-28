@@ -13,8 +13,8 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      {/* <WhoWeAre />
-      <WhatWeDo />
+      <WhoWeAre />
+      {/* <WhatWeDo />
       <OurWork />
       <OurPartners />
       <Testimonials />
